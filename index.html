@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<title>Formulário</title>
+
+        <link rel="stylesheet" href="form.css">
+    </head>
+  <body>
+<header>
+    
+    <figure>
+        <img src="imagens/logo.png">
+    </figure>
+     <h1> Soul Brasil</h1>
+    
+    
+</header>
+
+<main>
+
+<form action="/action_page.php">
+ <h2>DADOS PESSOAIS</h2>
+ <label> NOME COMPLETO </label>
+ <input type="text" name="camponome" size="40" class="nome">
+<br>
+ <label> RG </label>
+ <input type="rg" name="camporg" class="rg"  size="30" placeholder="000.000.000-0" maxlength="10">
+
+<br>
+
+<label> CPF </label>
+ <input type="cpf" name="campocpf" class="cpf" size="30" placeholder="000.000.000-00" maxlength="10">
+
+<br>
+
+<label>DATA DE NASCIMENTO</label>
+ <input type="date" name="datas" class="nascimento">
+
+<br>
+<br>
+<br><h2>DADOS DE CONTATO</h2><br>
+<br>
+<label>TELEFONE </label>
+ <input type="tel" name="campotelefone" class="telefone" placeholder="00-000000000">
+ <br>
+
+<label> E-MAIL</label>
+ <input type="email" name="campoemail"size="40" class="email">
+ <br>
+
+<label> ENDEREÇO</label>
+ <input type="text" name="campoendereço"size="40" class="endereço">
+<br>
+
+<label> CIDADE</label>
+ <input type="city" name="campocidade" size="30" class="cidade">
+<br>
+
+<label> ESTADO</label>
+ <select name="uf">
+     <option value=""></option>
+    <option value="">AC</option>
+    <option value="">AL</option>
+    <option value="">AP</option>
+    <option value="">AM</option>
+    <option value="">BA</option>
+    <option value="">CE</option>
+    <option value="">DF</option>
+    <option value="">ES</option>
+    <option value="">GO</option>
+    <option value="">MA</option>
+    <option value="">MT</option>
+    <option value="">MS</option>
+    <option value="">MG</option>
+    <option value="">PA</option>
+    <option value="">PB</option>
+    <option value="">PR</option>
+    <option value="">PE</option>
+    <option value="">PI</option>
+    <option value="">RJ</option>
+    <option value="">RN</option>
+    <option value="">RS</option>
+    <option value="">RO</option>
+    <option value="">RR</option>
+    <option value="">SC</option>
+    <option value="">SP</option>
+    <option value="">SE</option>
+    <option value="">TO</option>
+</select>
+                                             
+<label> DATA DO DIA ATUAL</label>
+ <input type="date" name="dataatual" class="diaatual">
+<br>
+<br><h3>DADOS PROFISSIONAIS</h3>
+<br>
+<br>
+<label> FORMAÇÃO</label>
+ <input type="text" name="campoformação" class="formação">
+
+<br>
+ 
+ <label> ÁREAS QUE ATUA:</label>
+ <input type="text" name="campoarea" class="area">
+
+<br>
+
+<label> PRINCIPAIS HABILIDADES</label>
+ <input type="text" name="campohabilidade" class="habilidade">
+ <br>
+
+<input type="submit" class="enviar" size="30">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+</body>
+</html>

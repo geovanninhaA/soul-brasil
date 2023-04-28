@@ -1,0 +1,123 @@
+/*DOCUMENTO CSS*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+	margin: 50px;
+background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFE000, #799F0C, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFE000, #799F0C, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+background-attachment: fixed; 
+font-family: 'Segoe UI', sans-serif; 
+height: 100%; 
+margin: 0;
+padding: 0;
+
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+h2 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+h3 {
+	color: black;
+	font-size: 30px;
+	text-align: cente
+}
+
+
+header { 
+background-color: #0005c8a; 
+text-align: center;  
+height: 150px; 
+display: flex;
+justify-content: center;
+
+
+}
+
+header figure {  
+	height: 150px;
+	margin-left:50px ;
+
+}
+header figure img {
+	height: 100%;
+}
+
+header h1{
+	font-size: 45px;
+	text-align: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin-top: 40px;
+
+}
+
+form {
+	border-radius: black;
+	background-color: ;
+	width: 1000px; 
+  padding: 40px; 
+  background: #ffffff99; 
+  box-shadow: 0 8px 32px #1f26875e; 
+  backdrop-filter: blur( 13.5px ); 
+  border-radius: 10px; 
+  border: 1px solid #ffffff33;
+  margin-top: 10px;
+
+
+
+}
+
+input:focus{
+	background-color: aliceblue;
+}
+
+main form input, select {
+	height: 30px;
+	border-radius: 10px;
+	background: #ffffff77;
+	padding-left: 10px;
+	margin-bottom: 10px ;
+
+}
+main form h2{ 
+text-align: center; 
+margin-bottom: 20px; 
+font-size: 33px; 
+color: #322332; 
+
+}
+
+main form textarea { 
+		text-align: center;
+}
+
+.enviar{
+	height: 40px;
+	padding-right: 10px;
+
+
+
+}
+
+.label{
+	text-align: center;
+
+}
